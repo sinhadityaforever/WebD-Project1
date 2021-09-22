@@ -1,0 +1,29 @@
+body{
+    background-color: #674BB1;
+    background-image: url('../images/bg-desktop.svg')
+}
+#logo{
+    margin-top: 2em;
+}
+.container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Text{
+    display: grid;
+    grid-template-rows: 200px 50px;
+}
+h1{
+    align-self: start;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white
+}
+h2{
+    align-self: start;
+    font-family: sans-serif;
+    color: #D1BEF4;
+    font-size: 30px;
+    font-weight: lighter;
+}
